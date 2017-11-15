@@ -1,0 +1,478 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f2f2f2 !important;
+}
+.header{
+	position: fixed;
+	float: left;
+	width: 100%;
+	height: 60px;
+	border-bottom:1px solid rgba(255, 255, 255 , .2);
+	background: #0077BB;
+	z-index: 90;
+}
+.logo{
+	position: relative;
+	float: left;
+	color: white;
+	height: 100%;
+	padding-top: 2px;
+	margin-left: 15px;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.menu{
+	position: relative;
+	float: right;
+	height: 30px;
+	margin-top: 30px !important;
+}
+.menusec{
+	position: relative;
+	float: left;
+	width: 95px;
+	color: white;
+	height: 100%;
+	padding-top: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.menusec:hover{
+	cursor: pointer;
+	border-bottom: 2px solid white;
+}
+.welcome{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #0077BB;
+
+}
+.introduccion{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.contenido{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.ejemplos{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.ejercicios{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.links{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.juegos{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.evaluacion{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.inttitle{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-top: 15px;
+	margin-left: 7.5%;
+	text-align: center;
+	font-size: 26pt;
+}
+.inttitle2{
+	position: relative;
+	float: left;
+	color: #0077BB;
+	width: 85%;
+	margin-top: 15px;
+	margin-left: 7.5%;
+	text-align: center;
+	font-size: 26pt;	
+}
+.titleh1{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-top: 15px;
+	margin-left: 7.5%;
+	text-align: center;
+}
+.inttxt{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-left: 7.5%;
+	text-align: left;
+	font-size: 14pt;
+}
+.inttxt2{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 19pt;
+}
+.inttxt strong{
+	position: relative;
+	float: left;
+	color: #0077BB;
+	text-align: left;
+	font-size: 16pt;
+}
+.txtwelcome{
+	position: relative;
+	float: left;
+	width: 90%;
+	margin-left: 5%; 		
+	text-align: center;
+	color: white;
+	margin-top: 33vh;
+	font-size: 26pt;
+}
+.btnwelcome{
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 50px;
+	border-radius: 15px;
+	border:1px solid white;
+	background: transparent;
+	text-align: center;
+	left: 50%;
+	color: white;
+	margin-top: 20px;
+	font-size: 19pt;
+	padding-top: 4px;
+	box-sizing: border-box;
+	margin-left: -125px;
+	transition: .5s;
+}
+.btnwelcome:hover{
+	background: white;
+	border:none;
+	cursor: pointer;
+	transition: .5s;
+	color: #0077BB;
+}
+.cont{
+	position: fixed; 
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	background: white;
+	margin-left: 93vw;
+	margin-top: 87vh;
+	margin-right: 15px;
+	z-index: 100;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.3);
+}
+.imgcont{
+	position: relative;
+	float: left;
+	width: 70%;
+	height: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+}
+.cont:hover{
+	cursor: pointer;
+}
+.contacto{
+	position: fixed;
+	margin-top: 60vh;
+	width: 100%;
+	height: 40vh;
+	background: #FA4504;
+}
+.conta{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100vh;
+}
+.contnombre{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.contcorreo{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.contfoto{
+	position: relative;
+	float: left;
+	width: 50%;
+	margin-left: 25%;
+}
+.contform{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.continp{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	color: white;
+	margin-top: 15px;
+}
+.form{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 100vh;
+
+}
+.contenviar{
+	position: relative;
+	float: left;
+	width: 65%;
+	margin-left: 20%;
+	margin-top: 2px;
+	height: 40px;
+	background: #0077BB;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+}
+.contenviar:hover{
+	cursor: pointer;
+}
+.inpcomentario{
+	height: 90px !important;
+}
+#preg{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-left: 7.5%;
+	margin-top: 25px;
+	font-size: 18pt;
+}
+#dato{
+	position: relative;
+	float: left;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+.answer{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+#boton{
+	position: relative;
+	float: left;
+	width: 30%;
+	margin-left: -15%;
+	left: 50%;
+	background: #0077BB;
+	color: white;
+	margin-bottom: 30px;
+	height:50px;
+	margin-top: 30px;
+
+}
+#repetir{
+	position: relative;
+	float: left;
+	width: 30%;
+	margin-left: -15%;
+	left: 50%;
+	background: #0077BB;
+	color: white;
+	margin-bottom: 30px;
+	height:50px;
+	margin-top: 30px;
+
+}
+.instruccioneseval{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 30px;
+	font-size: 21pt;
+	color: #0077BB;
+	text-align: center;
+}
+.contenedorevaluacion{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.3);
+}
+
+
+/**
+* Wordfind.js 0.0.1
+* (c) 2012 Bill, BunKat LLC.
+* Wordfind is freely distributable under the MIT license.
+* For all details and documentation:
+*     http://github.com/bunkat/wordfind
+*/
+
+#juego p {
+  font: 22pt sans-serif;
+  margin: 20px 20px 0px 20px;
+}
+
+/**
+* Styles for the puzzle
+*/
+#juego {
+  border: 1px solid black;
+  padding: 20px;
+  float: left;
+  margin: 30px 20px;
+  margin-left: 30%;
+}
+
+#juego div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* style for each square in the puzzle */
+#juego .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 0;
+  font: 1em sans-serif;
+}
+
+#juego button::-moz-focus-inner {
+  border: 0;
+}
+
+/* indicates when a square has been selected */
+#juego .selected {
+  background-color: orange;
+}
+
+/* indicates that the square is part of a word that has been found */ 
+#juego .found {
+  background-color: blue;
+  color: white;
+}
+
+#juego .solved {
+  background-color: purple;
+  color: white;
+}
+
+/* indicates that all words have been found */
+#juego .complete {
+  background-color: green;
+}
+
+/**
+* Styles for the word list
+*/
+#Palabras {
+  padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;
+}
+
+#Palabras ul {
+  list-style-type: none;
+}
+
+#Palabras li {
+  padding: 3px 0;
+  font: 1em sans-serif;
+}
+
+/* indicates that the word has been found */
+#Palabras .wordFound {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/**
+* Styles for the button
+*/
+#solve {
+  position: relative;
+  float: left;
+  width: 150px;
+  background: #0077BB;
+  color: white;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 80px;
+  padding-top: 6px;
+  box-sizing: border-box;
+}
